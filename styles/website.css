@@ -143,3 +143,8 @@ input[type=checkbox]{
   color: #939da3 !important;
   font-family: "Arial", "Tahoma", "Microsoft YaHei", arial, sans-serif;
 }
+
+/* Hide splitter icon */
+.fa-ellipsis-v:before {
+  display: none !important;
+}
