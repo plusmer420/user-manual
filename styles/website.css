@@ -1,0 +1,132 @@
+/* CSS for website */
+h1 {
+  color: #116EC5;
+  border-bottom: 1px solid #EFEAEA;
+  padding-bottom: 3px;
+}
+.markdown-section>:first-child {
+  margin-top: 0!important;
+}
+.page-wrapper {
+  margin-top: -1.275em;
+}
+.book .book-body .page-wrapper .page-inner section.normal {
+  min-height:350px;
+  margin-bottom: 30px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal hr {
+  height: 0px;
+  padding: 0;
+  margin: 0 0;
+  overflow: hidden;
+  background-color: #e7e7e7;
+  border-bottom: 1px dotted #e7e7e7;
+}
+
+.video-js {
+  width:100%;
+  height: 100%;
+}
+
+pre[class*="language-"] {
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  font-size: 16px;
+  font-family:  "Arial", "Tahoma", "Microsoft YaHei", arial, sans-serif;
+}
+
+.aceCode {
+font-size: 14px !important;
+}
+
+input[type=checkbox]{
+  margin-left: -2em;
+}
+
+.page-footer span{
+  font-size: 12px;
+}
+
+.page-footer .copyright {
+  float: left;
+}
+
+.body, html {
+  overflow-y: hidden;
+}
+
+h1 , h2 {
+  margin-top: 0px !important;
+}
+
+.navigation {
+  display: none !important;
+}
+
+
+.book-summary ul.summary li.active>a {
+  color : #116EC5;
+  font-weight: bold;
+}
+/* Add toc select effect border1 */
+.book-summary ul.summary li.active>a {
+  border-right: solid 3px #116EC5;
+}
+
+/* Add toc select effect border2 */
+.color-theme-1 .book-summary ul.summary li.active>a {
+  border-right: solid 3px rgb(112, 66, 20);
+}
+
+/* Add toc select effect border3 */
+.color-theme-2 .book-summary ul.summary li.active>a {
+  border-right: solid 3px rgba(255,255,255,0.5);
+}
+
+/* desktop */
+.page-inner {
+  margin-left: 8em !important;
+  margin-right: 8em !important;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+  .page-inner {
+  margin-left: 4em !important;
+  margin-right: 4em !important;
+  }
+} 
+
+/* phone */
+@media only screen and (max-width: 600px) {
+  .page-inner {
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+  }
+} 
+
+/* Hide "font-setting" option */
+.dropdown-menu .buttons .button.size-2 {
+  display: none;
+}
+
+.markdown-section h3 , .markdown-section h4 {
+  font-weight: 400;
+}
+
+/* Hide "publish with gitbook" link */
+.gitbook-link {
+  display: none !important;
+}
+
+/* Add hr margin */
+.book .book-body .page-wrapper .page-inner section.normal hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
