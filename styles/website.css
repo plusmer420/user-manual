@@ -38,7 +38,7 @@ pre[class*="language-"] {
 
 .book .book-body .page-wrapper .page-inner section.normal {
   font-size: 16px;
-  font-family:  "ubuntu", "Tahoma", "Microsoft YaHei", arial, sans-serif;
+  font-family:  "Arial", "Tahoma", "Microsoft YaHei", arial, sans-serif;
 }
 
 .aceCode {
@@ -89,6 +89,7 @@ h1 , h2 {
   border-right: solid 3px rgba(255,255,255,0.5);
 }
 
+/* desktop */
 .page-inner {
   margin-left: 8em !important;
   margin-right: 8em !important;
@@ -110,10 +111,9 @@ h1 , h2 {
   }
 } 
 
-/* Hide "font-setting"s option */
+/* Hide "font-setting" option */
 .dropdown-menu .buttons .button.size-2 {
   display: none;
-
 }
 
 .markdown-section h3 , .markdown-section h4 {
@@ -123,4 +123,10 @@ h1 , h2 {
 /* Hide "publish with gitbook" link */
 .gitbook-link {
   display: none !important;
+}
+
+/* Add hr margin */
+.book .book-body .page-wrapper .page-inner section.normal hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
